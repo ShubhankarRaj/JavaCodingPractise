@@ -1,0 +1,37 @@
+package SCJPTestSat;
+
+public class SomeClass {
+//    public int value = 1;
+//    
+//    public void printVal(int value) {
+////    	this.value = value;
+//        System.out.print(value);
+//    }
+//
+//    public static void main(String args[]) {
+//        int a = 2;
+////        SomeClass c = new SomeClass();
+//        printVal(a);
+////        System.out.println(value);
+//    }
+	
+	
+	    private int value1 = 1;
+	    
+	    public int getValue() {
+	        return value1;
+	    }
+	    
+	    public void changeVal(int value) {
+	        value1 = value;
+	    }
+
+	    public static void main(String args[]) {
+	        int a = 2;
+	        SomeClass c = new SomeClass();
+	        c.changeVal(a);
+	        System.out.print(c.getValue());
+	
+	}
+	
+}

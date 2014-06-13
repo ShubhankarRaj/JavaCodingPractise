@@ -1,0 +1,21 @@
+package myPackage;
+
+public class NameThread extends Thread{
+
+	private String name;
+	public NameThread(String name){
+		this.name = name;
+	}
+	
+	public void run(){
+		System.out.println("Greetings from thread "+name+"!!");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NameThread greetings = new NameThread("Fred");
+		greetings.start();
+	}
+
+}
+

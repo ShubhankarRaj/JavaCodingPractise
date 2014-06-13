@@ -1,0 +1,18 @@
+package VogelAlgorithms;
+
+import java.lang.Long;
+import java.util.ArrayList;
+import java.util.Collections;
+public class pushZerotoEnd {
+	public static void main(String []args){
+		long i = 1408089002300L, temp = 0;
+		ArrayList<Long> arr = new ArrayList<Long>();
+		do{
+			arr.add(i%10);
+			temp = temp/10;
+		}while(temp > 0);
+		
+		Collections.reverse(arr);
+		System.out.println(arr);
+	}
+}

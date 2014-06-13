@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+body{
+	margin:0;
+	background: gradient linear orange black;
+}
+header{
+	background: grey;
+	color: white;
+}
+
+header h1{
+	margin:0;
+}
+
+nav ul{
+	margin:0;
+}
+
+nav ul li{
+	background: black;
+	display: inline-block;
+	line-style-type: none;
+	margin: 5px;
+	padding 5px 15px;
+}
+
+nav ui li a{
+	color: white;
+}

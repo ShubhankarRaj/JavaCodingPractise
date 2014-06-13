@@ -1,0 +1,20 @@
+package VogelAlgorithms;
+
+import java.util.*;
+
+public class SortedSetTest {
+	public static void main(String args){
+	SortedSet<String> set1 = new TreeSet<String>();
+	set1.add("b");
+	set1.add("z");
+	set1.add("r");
+	set1.add("a");
+//	set1.add("adcd");
+	
+	Iterator<String> it = set1.iterator();
+	while(it.hasNext()){
+		Object element = it.next();
+		System.out.println(element.toString());
+	}
+	}
+}

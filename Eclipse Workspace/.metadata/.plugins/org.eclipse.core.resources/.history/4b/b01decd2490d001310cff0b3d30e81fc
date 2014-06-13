@@ -1,0 +1,16 @@
+package myPackage;
+
+public class subClass
+{
+    String name;
+
+    public class subClass
+    {
+        String name;
+
+        public String getOuterName()
+        {
+            return subClass.this.name;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+package myPackage;
+
+class Hello {
+    static class Thing {
+        public int size;
+
+        Thing() {
+            size = 0;
+        }
+    }
+
+    public static void main(String[] args) {
+     //   Hello hello1 = new Hello();
+    	Thing thing1 = new Thing();
+        System.out.println("Hello, World!");
+    }
+}

@@ -1,0 +1,23 @@
+package myPackage;
+
+public class NameThread extends Thread{
+
+	private String name;
+	String name1;
+	public NameThread(String name){
+		name1 = name;
+	}
+	
+	public void run(){
+		System.out.println("Greetings from thread "+name1+"!!");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NameThread greetings = new NameThread("Fred");
+		greetings.start();
+		System.out.println("Thread has been started...");
+	}
+
+}
+

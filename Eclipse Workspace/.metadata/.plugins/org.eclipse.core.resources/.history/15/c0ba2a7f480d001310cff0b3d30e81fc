@@ -1,0 +1,5 @@
+package myPackage;
+
+public final class TestingClass {
+
+}

@@ -1,0 +1,5 @@
+#Wed Dec 04 20:18:05 IST 2013
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=Convert to String

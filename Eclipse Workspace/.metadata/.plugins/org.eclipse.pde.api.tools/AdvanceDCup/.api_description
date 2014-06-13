@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="AdvanceDCup" modificationStamp="21763" version="1.2">
+    <package visibility="1">
+        <fragment handle="=AdvanceDCup/src&lt;VogelAlgorithms"/>
+        <type handle="=AdvanceDCup/src&lt;VogelAlgorithms{TestAnagramTest.java[TestAnagramTest" modificationStamp="22019" restrictions="0" visibility="0"/>
+        <type handle="=AdvanceDCup/src&lt;VogelAlgorithms{BinarySearchTree.java[BinarySearchTree" modificationStamp="12218" restrictions="0" visibility="0"/>
+        <type handle="=AdvanceDCup/src&lt;VogelAlgorithms{QuickSortTest.java[QuickSortTest" modificationStamp="12783" restrictions="0" visibility="0"/>
+        <type handle="=AdvanceDCup/src&lt;VogelAlgorithms{AnagramTestHashMapTest.java[AnagramTestHashMapTest" modificationStamp="21856" restrictions="0" visibility="0"/>
+    </package>
+</component>

@@ -1,0 +1,16 @@
+package SCJPTestSat;
+
+public class Cruiser1 implements Runnable {
+    public static void main(String[] args) {
+        Thread a = new Thread(new Cruiser1());
+        a.start();
+        
+        System.out.print("Begin");
+        a.join();
+        System.out.print("End");
+    }
+    
+    run() {
+        System.out.print("Run");
+    }
+}

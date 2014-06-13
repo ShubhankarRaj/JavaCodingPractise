@@ -1,0 +1,17 @@
+package dumpsExerc;
+
+public class SCJPMockTest {
+
+	Integer A;
+	int a;
+	public SCJPMockTest(int a) {
+		System.out.print(this.a);
+		this.a = A + a;
+		
+	}
+	public static void main(String args[]){
+		Integer A = new Integer(1);
+		System.out.println(" "+A.intValue());
+		SCJPMockTest t = new SCJPMockTest(A.intValue());
+	}
+}
