@@ -1,8 +1,0 @@
-@CHARSET "ISO-8859-1";
-body{
-	margin:0;
-}
-header{
-	background: #888;
-	color: white;
-}

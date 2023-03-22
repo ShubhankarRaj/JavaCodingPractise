@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;myPackage.Ret&apos; to &apos;ReturnType&apos;&#x0D;&#x0A;- Original project: &apos;myProject&apos;&#x0D;&#x0A;- Original element: &apos;myPackage.Ret&apos;&#x0D;&#x0A;- Renamed element: &apos;myPackage.ReturnType&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ret&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;myPackage{Ret.java[Ret" matchStrategy="1" name="ReturnType" qualified="false" references="true" similarDeclarations="false" stamp="1381667544185" textual="false" version="1.0"/>
-</session>
